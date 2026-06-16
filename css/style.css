@@ -1,0 +1,13 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;line-height:1.6}
+header,footer{background:#222;color:#fff;padding:1rem}
+nav ul{display:flex;gap:15px;list-style:none;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none}
+main{padding:20px}
+section{margin:20px 0}
+form{max-width:600px}
+input,textarea,button{width:100%;padding:10px;margin:8px 0}
+a:focus,input:focus,textarea:focus,button:focus{outline:3px solid blue}
+.skip-link{position:absolute;left:-9999px}
+.skip-link:focus{left:10px;top:10px;background:#fff}
